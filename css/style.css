@@ -199,7 +199,15 @@ line-height: 1.5;
     font-weight: bold
 }
 
+.jumbotron{
+    background-color: #C60F87;
+    color:white
+}
 
+.card-header{
+    background-color: #4F347F;
+    color:white
+}
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
