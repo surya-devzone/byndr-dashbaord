@@ -4,16 +4,21 @@
 
 @import "https://fonts.googleapis.com/css?family=Lato&display=swap";
 body {
-    font-family: 'Lato';
     background: #fafafa;
-}
-
-p {
     font-family: 'Lato';
+}
+p,h1,h2,h3, a{
+    font-family: 'Lato';
+    font-weight: bold
+}
+h4,h5,h6{
+    font-family: 'Lato';
+}
+p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color:black
 }
 
 a,
@@ -68,7 +73,7 @@ a:focus {
     height: 1080px;
     background: #4F347F 0% 0% no-repeat padding-box;
     opacity: 1;
-    padding: 20px 15px 20px 15px
+    padding: 20px 15px 20px 0px
 }
 
 #sidebar.active {
@@ -95,17 +100,33 @@ a:focus {
     display: block;
 }
 
-#sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
-}
+
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color:#C60F87;
-    
+    color:white;
+    background: #C60F87;
+    border-radius: 0px 30px 30px 0px;
+    height: 36px;
+    padding-top:5px;
+    padding-bottom:5px;
+   
 }
 
+#sidebar ul li :hover {
+    color:white;
+    background: #C60F87;
+    border-radius: 0px 30px 30px 0px;
+    height: 36px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#sidebar ul li>a,
+a[aria-expanded="true"] {
+    padding-left: 40px;
+   
+}
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -122,6 +143,7 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #6d7fcc;
+    
 }
 
 ul.CTAs {
@@ -147,6 +169,36 @@ a.article:hover {
     color: #fff !important;
 }
 
+.components > li.active{
+    top: 125px;
+left: 0px;
+height: 36px;
+border-radius: 0px 30px 30px 0px;
+opacity: 1;
+color:white !important;
+line-height: 1.5;
+}
+
+.fa-bell, .fa-inbox {
+ color: #4F347F
+}
+
+.channel{
+    background-color: #4F347F;
+    color: white
+}
+
+.statusCard > li >span.badge{
+    background-color: #4F347F;
+    color: white
+}
+
+.statusCard > li >h5{
+   
+    color:#C60F87;
+    font-weight: bold
+}
+
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -154,11 +206,23 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
+    padding: 0px 0px 10px 0px;
     min-height: 100vh;
     transition: all 0.3s;
 }
 
+.homeBanner{
+    background-image: url("../img/Rectangle\ 8.svg");
+    height:150px;
+}
+
+.homeBannerRow{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.homeBannerMark{
+  
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -174,3 +238,4 @@ a.article:hover {
         display: none;
     }
 }
+
