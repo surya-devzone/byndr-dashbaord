@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Byndr Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar starts -->
+        <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img src="./img/Byndr Cafe Logo.png" width="100%" height="auto"/>
+                </div>
+    
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="index.html">
+                          <span class="pr-2">  <img src='./img/dashboard-icon.svg' class="img img-fluid"/> </span> Dashboard
+                        </a>
+                    </li>
+    
+                    <div class="divider py-3"></div>
+    
+                    <li>
+                        <a href="javascript://">
+                        <span class="pr-2"><i class="fa fa-hashtag"></i></span>   Channels
+                        </a>
+                    </li>
+                    <div class="divider py-3"></div>
+                    <li class="active">
+                            <a href="events.html">
+                            <span class="pr-2"><i class="fa fa-calendar"></i></span>Upcoming events
+                            </a>
+                        </li>
+                  
+                </ul>
+    
+            </nav>
+  <!-- Sidebar ends -->
+
+
+<!-- Page Content Starts-->
+        <div id="content">
+
+            <!-- Top nav starts -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-outline-primary">
+                        <i class="fa fa-align-left d-lg-none"></i> 
+                        <span class="d-sm-none d-lg-block"><i class="fa fa-align-left"></i>  Dashboard</span> 
+                    </button>
+
+                   
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <form class="form-inline ">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <h4>Surya Teja</h4>
+                        <img class="ml-3 img img-fluid" src="https://i.ya-webdesign.com/images/user-avatar-png-2.png" height="35" width="35"/>
+                    </div>
+                </div>
+            </nav>
+         <!-- Top nav ends-->
+
+<!-- card starts -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+           <div class="card">
+               <div class="card-body">
+                    <h3>Events</h3>
+                    <small>On Byndr, you can stay updated with the upcoming events in and around your institution. You can also keep <br> a track of your past events by 
+                        <span class="textPink">upgrading Byndr.</span>
+                    </small>
+
+
+                 <div class="divider py-3"></div>
+
+                 <ul class="list-inline">
+                        <li class="list-inline-item text-bold">Sort by: </li>
+                        <li class="list-inline-item">Subject <i class="fa fa-sort-down"></i></li>
+                        <li class="list-inline-item">Date <i class="fa fa-sort-down"></i></li>
+                      </ul>
+
+
+
+    <h5 class="text-bold">Upcoming events</h5>
+
+
+
+      <div class="row">
+         <div class="col-md-3">
+                <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 1' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                      
+                        <div class="card-body pb-0">
+                            <div class="d-flex w-100 justify-content-between">
+                 <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                            </div>
+        <h6 class="mb-1 text-bold listTextInactive">
+             <small class="text-muted">Byndr International University</small>
+        </h6>
+
+        <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+
+        <div class="divider"><hr/></div>
+
+        <h6 class="text-bold listTextInactive">
+             <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+           </h6>        
+                        </div>
+                </div>
+    
+         </div>
+
+
+
+         <div class="col-md-3">
+                <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 2' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                      
+                        <div class="card-body pb-0">
+                            <div class="d-flex w-100 justify-content-between">
+                 <h6 class="mb-1 listHeadInactive"> Block Chain Part 2</h6>
+                            </div>
+        <h6 class="mb-1 text-bold listTextInactive">
+             <small class="text-muted">Byndr International University</small>
+        </h6>
+
+        <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+
+        <div class="divider"><hr/></div>
+
+        <h6 class="text-bold listTextInactive">
+             <i class="fa fa-circle dot-orange"></i>   <small class="text-muted">Blockchain</small>
+           </h6>        
+                        </div>
+                </div>
+    
+         </div>
+
+
+
+         <div class="col-md-3">
+                <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 3' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                      
+                        <div class="card-body pb-0">
+                            <div class="d-flex w-100 justify-content-between">
+                 <h6 class="mb-1 listHeadInactive"> Block Chain Part 3</h6>
+                            </div>
+        <h6 class="mb-1 text-bold listTextInactive">
+             <small class="text-muted">Byndr International University</small>
+        </h6>
+
+        <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+
+        <div class="divider"><hr/></div>
+
+        <h6 class="text-bold listTextInactive">
+             <i class="fa fa-circle dot-green"></i>   <small class="text-muted">Blockchain</small>
+           </h6>        
+                        </div>
+                </div>
+    
+         </div>
+
+
+
+         <div class="col-md-3">
+                <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 4' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                      
+                        <div class="card-body pb-0">
+                            <div class="d-flex w-100 justify-content-between">
+                 <h6 class="mb-1 listHeadInactive"> Block Chain Part 4</h6>
+                            </div>
+        <h6 class="mb-1 text-bold listTextInactive">
+             <small class="text-muted">Byndr International University</small>
+        </h6>
+
+        <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+
+        <div class="divider"><hr/></div>
+
+        <h6 class="text-bold listTextInactive">
+             <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+           </h6>        
+                        </div>
+                </div>
+    
+         </div>
+
+
+
+
+      </div>
+
+
+
+      <div class="row pt-3">
+            <div class="col-md-3">
+                   <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 5' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                         
+                           <div class="card-body pb-0">
+                               <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 listHeadInactive"> Block Chain Part 5</h6>
+                               </div>
+           <h6 class="mb-1 text-bold listTextInactive">
+                <small class="text-muted">Byndr International University</small>
+           </h6>
+   
+           <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+   
+           <div class="divider"><hr/></div>
+   
+           <h6 class="text-bold listTextInactive">
+                <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+              </h6>        
+                           </div>
+                   </div>
+       
+            </div>
+   
+   
+   
+            <div class="col-md-3">
+                   <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 6' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                         
+                           <div class="card-body pb-0">
+                               <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 listHeadInactive"> Block Chain Part 6</h6>
+                               </div>
+           <h6 class="mb-1 text-bold listTextInactive">
+                <small class="text-muted">Byndr International University</small>
+           </h6>
+   
+           <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+   
+           <div class="divider"><hr/></div>
+   
+           <h6 class="text-bold listTextInactive">
+                <i class="fa fa-circle dot-orange"></i>   <small class="text-muted">Blockchain</small>
+              </h6>        
+                           </div>
+                   </div>
+       
+            </div>
+   
+   
+   
+            <div class="col-md-3">
+                   <div class="card single-event" data-toggle="modal" data-title='Block Chain Part 7' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                         
+                           <div class="card-body pb-0">
+                               <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 listHeadInactive"> Block Chain Part 7</h6>
+                               </div>
+           <h6 class="mb-1 text-bold listTextInactive">
+                <small class="text-muted">Byndr International University</small>
+           </h6>
+   
+           <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+   
+           <div class="divider"><hr/></div>
+   
+           <h6 class="text-bold listTextInactive">
+                <i class="fa fa-circle dot-green"></i>   <small class="text-muted">Blockchain</small>
+              </h6>        
+                           </div>
+                   </div>
+       
+            </div>
+   
+   
+   
+            <div class="col-md-3">
+                   <div class="card single-event" data-toggle="modal"  data-title='Block Chain Part 8' data-date='Exam on Jan 18, 2020' data-target="#eventDetailsModal">
+                         
+                           <div class="card-body pb-0">
+                               <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 listHeadInactive"> Block Chain Part 8</h6>
+                               </div>
+           <h6 class="mb-1 text-bold listTextInactive">
+                <small class="text-muted">Byndr International University</small>
+           </h6>
+   
+           <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+   
+           <div class="divider"><hr/></div>
+   
+           <h6 class="text-bold listTextInactive">
+                <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+              </h6>        
+                           </div>
+                   </div>
+       
+            </div>
+   
+   
+   
+   
+         </div>
+   
+
+               </div>
+           </div>
+        </div>
+    </div>
+</div>
+<!-- card ends -->
+    </div>
+</div>
+
+<!-- modal box -->
+<div class="modal fade" id="eventDetailsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-10">
+                <h5 class="modal-title" id="eventTitle"></h5>
+                 <h6 class="modal-title" id="eventDate"><i class="fa fa-bell"></i></h6>
+                     </div>
+                 </div>
+             </div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-light">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+               <div class="container">
+                    <p>Related materials</p>
+                   <div class="row">
+                     
+                       <div class="col-md-3">
+                           <div class="card">
+                               <div class="card-body pdf-cards"></div>
+                           </div>
+                       </div>
+
+                       <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body pdf-cards"></div>
+                            </div>
+                        </div>
+ 
+                   </div>
+
+                   <hr>
+           <div class="row pt-3">
+               <div class="col-md-2">
+                  <img src="http://getdrawings.com/free-icon/blank-avatar-icon-52.png" height="50" width="50"/>
+               </div>
+
+
+               <div class="col-md-10">
+                   <h6 class="text-bold">Satish Nampally</h6>
+                   <p class="text-muted text-overflow eventNote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, amet, impedit blanditiis quaerat officiis rem voluptatum aspernatur commodi in ducimus consectetur neque? Ex asperiores sequi nam perspiciatis? Corporis, atque ratione.</p>
+               </div>
+           </div>
+
+
+
+               </div>
+
+           
+
+            </div>
+           
+          </div>
+        </div>
+      </div>
+<!-- modal box -->
+
+
+
+<!-- Page Content Ends-->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -20,11 +20,26 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="index.html">Dashboard</a>
+                    <a href="index.html">
+                      <span class="pr-2">  <img src='./img/dashboard-icon.svg' class="img img-fluid"/> </span> Dashboard
+                    </a>
                 </li>
+
+                <div class="divider py-3"></div>
+
                 <li>
-                    <a href="page2.html">Channels</a>
+                    <a href="javascript://">
+                    <span class="pr-2"><i class="fa fa-hashtag"></i></span>   Channels
+                    </a>
                 </li>
+                <div class="divider py-3"></div>
+                <li>
+                        <a href="events.html">
+                        <span class="pr-2"><i class="fa fa-calendar"></i></span>Upcoming events
+                        </a>
+
+
+                 </li>
               
             </ul>
 
@@ -36,13 +51,14 @@
         <div id="content">
 
             <!-- Top nav starts -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <button type="button" id="sidebarCollapse" class="btn btn-outline-primary">
                         <i class="fa fa-align-left d-lg-none"></i> 
                         <span class="d-sm-none d-lg-block"><i class="fa fa-align-left"></i>  Dashboard</span> 
                     </button>
+
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-align-justify"></i>
                     </button>
@@ -71,7 +87,6 @@
                                     <div class="row">
                                     <div class="row"><h3>Hi, Surya! You've new notifications</h3></div>
                                     <div class="row"><h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h6></div>
-                                    <div class="row"><h6>Lorem, ipsum dolor sit amet  </h6></div>
                                     </div>
                               </div>
                    
@@ -80,47 +95,161 @@
 
 
                             <div class="row">
-                                <div class="col-md-6">
-                                        <ul class="list-group statusCard">
-                                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                 <span class="badge badge-pill channel"># </span>Your Channels
-                                             <i class="fa fa-bell"></i>
-                                             </li>
-                                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                <h5>#general</h5>  
-                                                  <span class="badge badge-pill">3</span>
-                                             </li>
-                                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                 <h5>#blockchain</h5> 
-                                                  <span class="badge badge-pill">3</span>
-                                             </li>
-                                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                   <h5>#digitalmarketing</h5> 
-                                                    <span class="badge badge-pill">3</span>
-                                               </li>
+                                <div class="col-md-6 pb-3">
+                                       <div class="list-group">
 
-                                              </ul>
+
+                                            <div class="list-group-item list-group-item-action">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-10">
+                                                                <div class="d-flex justify-content-start align-items-center">
+                                                          <span class="badge badge-pill channel"># </span> 
+                                                          <h5 class="pl-3 text-bold">Your channels</h5>           
+                                                                </div>
+                                                               
+                                                        </div>
+                                                        <div class="col-xs-2 col-sm-2 count">
+                                                                <i class="fa fa-bell"></i>
+                                                        </div>
+                                                    </div>                                                    
+                                              </div>
+
+                                            <div class="list-group-item list-group-item-action">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-10">
+                                                             <div class="d-flex w-100 justify-content-between">
+                                                                     <h6 class="mb-1 listHead">#general  <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                </div>
+                                                                     <h6 class="mb-1 text-bold listText">Donec mi. <small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                        </div>
+                                                        <div class="col-xs-2 col-sm-2 count">
+                                                             <span class="badge badge-pill">3</span>
+                                                        </div>
+                                                    </div>                                                    
+                                              </div>
+
+                                              <div class="list-group-item list-group-item-action">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-10">
+                                                             <div class="d-flex w-100 justify-content-between">
+                                                                     <h6 class="mb-1 listHead">#blockchain  <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                </div>
+                                                                     <h6 class="mb-1 text-bold listText">Satish Nampally<small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                        </div>
+                                                        <div class="col-xs-2 col-sm-2 count">
+                                                             <span class="badge badge-pill">3</span>
+                                                        </div>
+                                                    </div>                                                    
+                                              </div>
+
+                                              <div class="list-group-item list-group-item-action">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-10">
+                                                             <div class="d-flex w-100 justify-content-between">
+                                                                     <h6 class="mb-1 listHead">#digitalmarketing  <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                </div>
+                                                                     <h6 class="mb-1 text-bold listText">Tejaswi cherukuri <small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                        </div>
+                                                        <div class="col-xs-2 col-sm-2 count">
+                                                             <span class="badge badge-pill">3</span>
+                                                        </div>
+                                                    </div>                                                    
+                                              </div>
+
+                                              <div class="list-group-item list-group-item-action statusCardInactive">
+                                                    <div class="row">
+                                                        <div class="col-xs-10 col-sm-10">
+                                                             <div class="d-flex w-100 justify-content-between">
+                                                                     <h6 class="mb-1 listHeadInactive">#digitalmarketing  <span class="listHeadTime text pl-3">11:00</span></h6>
+                                                                </div>
+                                                                     <h6 class="mb-1 text-bold listTextInactive">Jagadeesh <small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                        </div>
+                                                       
+                                                    </div>                                                    
+                                              </div>
+            
+                                       </div>
+
+
                                 </div>
-                                <div class="col-md-6">
-                                        <ul class="list-group statusCard">
-                                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                     <span class="badge badge-pill channel"># </span>Direct Messages
-                                                 <i class="fa fa-inbox"></i>
-                                                 </li>
-                                                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                    <h5>#general</h5>  
-                                                      <span class="badge badge-pill">3</span>
-                                                 </li>
-                                                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                     <h5>#blockchain</h5> 
-                                                      <span class="badge badge-pill">3</span>
-                                                 </li>
-                                                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                                                       <h5>#digitalmarketing</h5> 
-                                                        <span class="badge badge-pill">3</span>
-                                                   </li>
+                                <div class="col-md-6 pb-3">
+                                        <div class="list-group">
+
+
+                                                <div class="list-group-item list-group-item-action">
+                                                        <div class="row">
+                                                            <div class="col-xs-10 col-sm-10">
+                                                                    <div class="d-flex justify-content-start align-items-center">
+                                                             
+                                                    <i class="fa fa-inbox"></i>
+                                                              <h5 class="pl-3 text-bold">Direct Messages</h5>           
+                                                                    </div>
+                                                                   
+                                                            </div>
+                                                            <div class="col-xs-2 col-sm-2 count">
+                                                                    <i class="fa fa-bell"></i>
+                                                            </div>
+                                                        </div>                                                    
+                                                  </div>
     
-                                                  </ul>
+                                                <div class="list-group-item list-group-item-action">
+                                                        <div class="row">
+                                                            <div class="col-xs-10 col-sm-10">
+                                                                 <div class="d-flex w-100 justify-content-between">
+                                                                         <h6 class="mb-1 listHead">Satish <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                    </div>
+                                                                         <h6 class="mb-1 text-bold listText"> <small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                            </div>
+                                                            <div class="col-xs-2 col-sm-2 count">
+                                                                 <span class="badge badge-pill">3</span>
+                                                            </div>
+                                                        </div>                                                    
+                                                  </div>
+    
+                                                  <div class="list-group-item list-group-item-action">
+                                                        <div class="row">
+                                                            <div class="col-xs-10 col-sm-10">
+                                                                 <div class="d-flex w-100 justify-content-between">
+                                                                         <h6 class="mb-1 listHead">Jagadeesh 
+                                                    <i class="fa fa-circle dot-orange"></i>
+                                                         <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                    </div>
+                                                                         <h6 class="mb-1 text-bold listText"><small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                            </div>
+                                                            <div class="col-xs-2 col-sm-2 count">
+                                                                 <span class="badge badge-pill">3</span>
+                                                            </div>
+                                                        </div>                                                    
+                                                  </div>
+    
+                                                  <div class="list-group-item list-group-item-action statusCardInative">
+                                                        <div class="row">
+                                                            <div class="col-xs-10 col-sm-10">
+                                                                 <div class="d-flex w-100 justify-content-between">
+                                                                         <h6 class="mb-1 listHead">Tejaswi 
+                             <i class="fa fa-circle dot-green"></i>  <span class="listHeadTime text pl-3">11:00 AM</span></h6>
+                                                                    </div>
+                                                                         <h6 class="mb-1 text-bold listText">Satish Nampally<small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                            </div>
+                                                            <div class="col-xs-2 col-sm-2 count">
+                                                                 <span class="badge badge-pill">3</span>
+                                                            </div>
+                                                        </div>                                                    
+                                                  </div>
+    
+                                                  <div class="list-group-item list-group-item-action statusCardInactive">
+                                                        <div class="row">
+                                                            <div class="col-xs-10 col-sm-10">
+                                                                 <div class="d-flex w-100 justify-content-between">
+                                                                         <h6 class="mb-1 listHeadInactive">Pradeep  <span class="listHeadTime text pl-3">yesterday</span></h6>
+                                                                    </div>
+                                                                         <h6 class="mb-1 text-bold listTextInactive">Jagadeesh <small>Donec id elit non mi portadfskjdjksdjkfdkjdsdjkskjsd.</small></h6>
+                                                            </div>
+                                                           
+                                                        </div>                                                    
+                                                  </div>
+                
+                                           </div>
                                 </div>
                             </div>
                       </div>
@@ -130,26 +259,139 @@
                     <div class="container">
                      <div class="row">
                            <div class="col-md-12">
-                                <div class="card">
-                                        <div class="card-header">Upcoming Events</div>
-                                        <div class="card-body">Block chain #1</div>
+                                <div class="card upcoming-events">
+                                        <div class="card-header">Upcoming Events  
+                                    <span class="badge badge-pill bg-white float-right text-dark">1</span></div>
+                                        <div class="card-body pb-0">
+                                            <div class="d-flex w-100 justify-content-between">
+                                 <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                            </div>
+                        <h6 class="mb-1 text-bold listTextInactive">
+                             <small class="text-muted">Byndr International University</small>
+                        </h6>
+
+                        <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+
+                        <div class="divider"><hr/></div>
+
+                        <h6 class="text-bold listTextInactive py-0">
+                             <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                           </h6>        
+                                        </div>
                                 </div>
                            </div>
                      </div>
-                     <div class="row">
+                     <div class="row pb-3">
                             <div class="col-md-12">
-                                    <div class="card">
-                                            <div class="card-body">Block chain #2</div>
-                                    </div>
-                               </div>
-                     </div>
-                     <div class="row">
+                                 <div class="card statusCardInactive">
+                                       
+                                         <div class="card-body pb-0">
+                                             <div class="d-flex w-100 justify-content-between">
+                                  <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                             </div>
+                         <h6 class="mb-1 text-bold listTextInactive">
+                              <small class="text-muted">Byndr International University</small>
+                         </h6>
+ 
+                         <i class="fa fa-clock-o"></i>  <small>Exam on Jan 18, 2020 </small>
+ 
+                         <div class="divider"><hr/></div>
+ 
+                         <h6 class="mb-1 text-bold listTextInactive">
+                              <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                            </h6>        
+                                         </div>
+                                 </div>
+                            </div>
+                      </div>
+
+
+                      <div class="row">
                             <div class="col-md-12">
-                                    <div class="card">
-                                            <div class="card-body">Block chain #3</div>
-                                    </div>
-                               </div>
-                     </div>
+                                 <div class="card">
+                                        <div class="card-header bg-pink">Materials  
+                                                <span class="badge badge-pill bg-white float-right text-dark">1</span></div>                               
+                                         <div class="card-body py-0 px-3">
+                                     <div class="row">
+                                         <div class="col-md-6">
+                                                <div class="d-flex w-100 justify-content-between pt-1">
+                                                        <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                                                   </div>
+                                           
+                       
+                                               <i class="fa fa-clock-o"></i>  <small>Jan 18, 2020 </small>
+                       
+                                               <div class="divider"><hr/></div>
+                       
+                                               <h6 class="text-bold listTextInactive">
+                                                    <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                                                  </h6> 
+                                         </div>
+
+
+                                         <div class="col-md-6 statusCardInactive">
+                                                <div class="d-flex w-100 justify-content-between pt-1">
+                                                        <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                                                   </div>
+                                           
+                       
+                                               <i class="fa fa-clock-o"></i>  <small>Jan 18, 2020 </small>
+                       
+                                               <div class="divider"><hr/></div>
+                       
+                                               <h6 class="text-bold listTextInactive">
+                                                    <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                                                  </h6> 
+                                         </div>
+
+
+                                         <div class="col-md-6 statusCardInactive">
+                                                <div class="d-flex w-100 justify-content-between pt-1">
+                                                        <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                                                   </div>
+                                             
+                                               <i class="fa fa-clock-o"></i>  <small>Jan 18, 2020 </small>
+                       
+                                               <div class="divider"><hr/></div>
+                       
+                                               <h6 class="text-bold listTextInactive">
+                                                    <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                                                  </h6> 
+                                         </div>
+
+                                         <div class="col-md-6 statusCardInactive">
+                                                <div class="d-flex w-100 justify-content-between pt-1">
+                                                        <h6 class="mb-1 listHeadInactive"> Block Chain Part 1</h6>
+                                                                   </div>
+                                              
+                       
+                                               <i class="fa fa-clock-o"></i>  <small>Jan 18, 2020 </small>
+                       
+                                               <div class="divider"><hr/></div>
+                       
+                                               <h6 class="text-bold listTextInactive">
+                                                    <i class="fa fa-circle dot-blue"></i>   <small class="text-muted">Blockchain</small>
+                                                  </h6> 
+                                         </div>
+
+
+
+
+
+
+
+
+
+
+
+                                     </div>       
+                                         </div>
+                                 </div>
+                            </div>
+                      </div>
+
+                      
+                   
                     </div>
                  </div>
               </div>
